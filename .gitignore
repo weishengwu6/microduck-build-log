@@ -1,0 +1,33 @@
+# 本地系统、编辑器及 Python 缓存
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地私密配置
+.env
+.env.*
+!.env.example
+*.local.*
+*.pem
+*.key
+
+# 大型下载、模型、视频和训练输出：在文档中登记来源与存储位置
+/downloads/
+/local-data/
+/outputs/
+wandb/
+*.img
+*.img.xz
+*.img.gz
+*.iso
+*.mp4
+*.mov
+*.mkv
+*.pt
+*.pth
+*.ckpt
+*.onnx

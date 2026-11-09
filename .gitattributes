@@ -1,0 +1,16 @@
+# Normalize text files and use LF across platforms.
+* text=auto eol=lf
+
+# Windows command scripts use CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Preserve CAD and model files byte-for-byte (including textual STEP/STL).
+*.[sS][lL][dD][pP][rR][tT] binary
+*.[sS][lL][dD][aA][sS][mM] binary
+*.[sS][lL][dD][dD][rR][wW] binary
+*.[sS][tT][eE][pP] binary
+*.[sS][tT][pP] binary
+*.[sS][tT][lL] binary
+*.3mf binary
+*.dds binary
